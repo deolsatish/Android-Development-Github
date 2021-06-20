@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addplaceActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:id="@+id/placenameView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="30dp"
+            android:text="Place Name" />
+
+        <!--<fragment
+            android:id="@+id/autocomplete_fragment"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            android:layout_width="300dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="72dp" />-->
+
+        <EditText
+            android:id="@+id/locationView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_margin="10dp"
+            android:onClick="autocompletefunction"
+            android:text="Location" />
+
+
+
+
+
+        <Button
+            android:id="@+id/getcurrentlocation"
+            android:layout_width="250dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:onClick="getlocationfunction"
+            android:backgroundTint="@color/black"
+            android:text="GET CURRENT LOCATION" />
+
+        <Button
+            android:id="@+id/showonmap"
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:onClick="showonmapfunction"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="100dp"
+            android:text="SHOW ON MAP" />
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:onClick="savefunction"
+            android:text="SAVE" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.foodrescueapp2.homeActivity">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:layout_alignParentLeft='true'
+        android:layout_alignParentTop="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Account"
+        android:orderInCategory="100"
+        android:title="Account"
+        android:layout_alignParentLeft='true'
+        android:layout_alignParentTop="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Mylist"
+        android:orderInCategory="100"
+        android:title="My List"
+        android:layout_alignParentLeft='true'
+        android:layout_alignParentTop="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:layout_alignParentLeft='true'
+        android:layout_alignParentTop="true"
+        app:showAsAction="never" />
+</menu>

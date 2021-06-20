@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">quizapp</string>
+    <string name="headingtext">SIT305 Quiz App</string>
+    <string name="enternametext">Enter Your Name :</string>
+    <string name="nametext">Name</string>
+    <string name="startbuttontext">Start</string>
+    <string name="welcometext">Welcome your name!</string>
+    <string name="progresstext">0/5</string>
+    <string name="questiontitle">Android Question Title</string>
+    <string name="question">Question Details go here :</string>
+    <string name="answer1">Ansedasdasdsaasdasd
+        asdasdr1</string>
+    <string name="answer2">Anser2</string>
+    <string name="answer3">Anser3</string>
+    <string name="finalbutton">submit</string>
+    <string name="textview">Congratulations your name!</string>
+    <string name="textview1">YOUR SCORE: 0/0</string>
+    <string name="button1">Take New Quiz</string>
+    <string name="button2">Finish</string>
+</resources>

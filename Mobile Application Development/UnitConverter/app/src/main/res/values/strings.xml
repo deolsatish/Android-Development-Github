@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+
+    <string name="inputvalue">111.111</string>
+    <string name="unit1"></string>
+    <string name="unit2"></string>
+    <string name="unit3"></string>
+    <string name="thermo">TODO</string>
+    <string name="unittext1"></string>
+    <string name="unittext2"></string>
+    <string name="unittext3"></string>
+    <string-array name="input_array">
+        <item>Metre</item>
+        <item>Celsius</item>
+        <item>Kilogram</item>
+    </string-array>
+</resources>

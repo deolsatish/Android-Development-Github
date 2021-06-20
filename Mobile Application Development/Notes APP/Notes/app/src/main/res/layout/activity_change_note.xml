@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeNoteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="60dp" >
+
+            <EditText
+                android:id="@+id/updatetextview"
+                android:layout_width="match_parent"
+                android:layout_height="413dp"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:text="Updating text"
+                android:textSize="32dp"
+                tools:ignore="LabelFor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/updatebutton"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="50dp"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="24dp"
+                    android:onClick="updatefunction"
+                    android:text="UPDATE" />
+                <Button
+                    android:id="@+id/deletebutton"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="50dp"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="24dp"
+                    android:onClick="deletefunction"
+                    android:text="DELETE" />
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
